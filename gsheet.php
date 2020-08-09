@@ -23,7 +23,7 @@ $client->setAuthConfig('https://www.cravens-consulting.com/credentials.json');
 $service = new Google_Service_Sheets($client);
 
 $spreadsheetId = '13CecB3s0czSJIWxQjIBwfpGExTULXk_IdtFMKzplZJ0'; //It is present in your URL
-$get_range = 'Tracking!A2:B25';
+$get_range = 'Tracking!A2:D150';
 
 //Request to get data from spreadsheet.
 $response = $service->spreadsheets_values->get($spreadsheetId, $get_range);
