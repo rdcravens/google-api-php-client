@@ -12,7 +12,7 @@
 <body>
 <?php
 
-require_once ('/src/Google/autoload.php');
+require_once ('./src/Google/autoload.php');
 
 //Reading data from spreadsheet.
 $client = new Google_Client();
